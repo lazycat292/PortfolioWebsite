@@ -1,0 +1,135 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+h1{
+text-align:left;
+font-size: 40px;
+}
+body{
+background:aliceblue;
+font-family: Verdana,Tahoma,"DejaVu Sans",sans-serif;
+font-size:16px;
+}
+#topwrapper{
+    margin:20px;
+    display: flex;
+}
+#middle{
+    width:60%
+}
+#navigation{
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    height: 50px;
+    float: right;
+}
+table{
+    width:100%;
+    font-size:18px;
+    border: none;
+    border-collapse: collapse;
+    height: 50px;
+}
+td{
+    background-color:#f0f8ff;
+    text-align: center;
+    padding: 10px;
+    min-width: 120px;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a{
+    text-align: center;
+}
+.bodyparagraph{
+    margin-left:  13%;
+    margin-right: 13%;
+    max-width:1440px;
+    min-width: 200px;
+    position: relative;
+    margin-top:20px;
+    min-height:160px;
+}
+h2{
+    font-size: 21px;
+    margin-top:40px;
+    margin-bottom:15px;
+    text-align: center;
+}
+ul{
+    padding:0px;
+}
+.bullets{
+    margin-bottom:8px;
+}
+ol {
+    width: 50%;
+    margin: auto;
+  }
+.dropbtn {
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    width:100%;
+    overflow:auto;
+}
+.dropdown-content a{
+    display:block;
+    padding:15px;
+    font-size: 15px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown{
+    display:inline-block;
+    position: relative;
+    width:100%;
+}
+.project{
+    min-width: 120px;
+}
+#work{
+    margin-left:  13%;
+    margin-right: 13%;
+    max-width:1440px;
+    min-width: 200px;
+    position: relative;
+    margin-top:20px;
+    min-height:850px;
+}
+.box{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+    min-height:350px;
+}
+img{
+    max-width: 100%;
+    max-height:80%;
+    object-fit: contain;
+    margin-left:auto;
+    margin-right:auto;
+}
+h3{
+    text-align: center;
+    margin:3px;
+    font-size: 14px;
+}
