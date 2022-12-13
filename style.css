@@ -2,7 +2,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
   }
 h1{
 text-align:left;
@@ -111,7 +111,7 @@ ol {
     max-width:1440px;
     min-width: 200px;
     position: relative;
-    margin-top:20px;
+    margin-top:5px;
     min-height:850px;
 }
 .box{
@@ -131,5 +131,32 @@ img{
 h3{
     text-align: center;
     margin:3px;
-    font-size: 14px;
+    font-size: 20px;
+}
+#intro{
+    display: flex;
+    width:100%;
+    min-height:250px;
+}
+#left{
+    width:50%;
+}
+#right{
+    width:35%;
+}
+.intro{
+    font-size: 34px;
+}
+.emphasized{
+    font: bold;
+    color: yellowgreen;
+}
+#about{
+    display: flex;
+    width:100%;
+    min-height:400px;
+    margin-top:60px;
+}
+.final{
+    font-size: 19px;
 }
